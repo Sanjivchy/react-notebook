@@ -19,18 +19,21 @@
   background-color: transparent;
   color: #333;
   border-radius: 4px;
-  border: 2px solid var(--primary);
   transition: all 0.3s ease-out;
 }
 
 .btn__signin{
 color: #333;
 background-color:#fff;
-border: 2px solid var(--primary);
+border: 1px solid var(--primary);
 
 }
 .btn__signup{
   color: #333;
-  border: 2px solid var(--primary);
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+}
+
+.btn__search{
   background-color: var(--primary);
 }
