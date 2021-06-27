@@ -10,11 +10,11 @@ export function Button() {
          <button className='btn btn__search'>Search</button>
         </Link>
         
-        <Link to='/sign-in'>
+        <Link to='/signin'>
           <button className='btn btn__signin'>Sign In</button>
         </Link>
         
-        <Link to='/sign-Up'>  
+        <Link to='/signin'>  
           <button className='btn btn__signup'>Sign Up</button>
         </Link>
     </div> 

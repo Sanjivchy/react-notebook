@@ -33,11 +33,11 @@ function Navbar() {
             <Link to='#' className='nav-links-mobile' onClick={closeMobileMenu}> Search</Link>
           </li>
           <li>
-            <Link to='/sign-in' className='nav-links-mobile' onClick={closeMobileMenu} >Sign In</Link>
+            <Link to='/signin' className='nav-links-mobile' onClick={closeMobileMenu} >Sign In</Link>
           </li>
 
           <li>
-            <Link to='/sign-Up' className='nav-links-mobile' onClick={closeMobileMenu}> Sign Up</Link>
+            <Link to='/signin' className='nav-links-mobile' onClick={closeMobileMenu}> Sign Up</Link>
           </li>
 
         </ul>
