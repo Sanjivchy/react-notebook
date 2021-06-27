@@ -21,10 +21,10 @@ function Footer() {
                     <div className="w-full px-4 mb-8 md:w-3/12 sm:w-9/12">
                         <h4 className="relative text-lg font-medium text-gray-900 capitalize mb-9">Contact</h4>
                         <ul>
-                           <Link to="#"> <li className="pl-0"> <i className="block text-base font-medium text-gray-600 capitalize" ></i>gfdgd</li></Link>
-                           <Link to="#"> <li className="pl-0"> <i className="block text-base font-medium text-gray-600 capitalize" ></i>gfdgd</li></Link>
-                           <Link to="#" > <li className="pl-0"> <i className="block text-base font-medium text-gray-600 capitalize" ></i>gfdgd</li></Link>
-                           <Link to="#"> <li className="pl-0"> <i className="block text-base font-medium text-gray-600 capitalize" ></i>gfdgd</li></Link>
+                           <Link to="#"> <li className="pl-0"> <i className="block text-base font-medium text-gray-600 capitalize" >gfdgd</i></li></Link>
+                           <Link to="#"> <li className="pl-0"> <i className="block text-base font-medium text-gray-600 capitalize" >gfdgd</i></li></Link>
+                           <Link to="#" > <li className="pl-0"> <i className="block text-base font-medium text-gray-600 capitalize" >gfdgd</i></li></Link>
+                           <Link to="#"> <li className="pl-0"> <i className="block text-base font-medium text-gray-600 capitalize" >gfdgd</i></li></Link>
 
                            
                         </ul> 
