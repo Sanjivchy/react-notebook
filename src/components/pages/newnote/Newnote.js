@@ -1,6 +1,6 @@
 import React from 'react'
 
-function NewNote() {
+function Newnote() {
     return (
         <div>
             New Notes
@@ -8,4 +8,4 @@ function NewNote() {
     )
 }
 
-export default NewNote
+export default Newnote

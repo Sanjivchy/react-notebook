@@ -4,10 +4,10 @@ import './App.css';
 
 // components
 import Navbar from './components/Navbar/Navbar';
-import Explore from './components/pages/Explore';
+import Explore from './components/pages/explore/Explore';
 import Home from './components/pages/home/Home';
-import NewNote from './components/pages/NewNote';
-import SignIn from './components/pages/login/SignIn'
+import SignIn from './components/pages/login/SignIn';
+import Newnote from './components/pages/newnote/Newnote'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home}/>
           <Route path="/Explore" component={Explore}/>
-          <Route path="/Newnote" component={NewNote}/>
+          <Route path="/Newnote" component={Newnote}/>
           <Route path="/SignIn" component={SignIn}/>
         </Switch>
     </Router>
