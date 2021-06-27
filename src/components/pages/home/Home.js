@@ -1,5 +1,8 @@
 import React from 'react';
 import Footer from './Footer';
+import Img1 from './images/img1.png';
+import Img2 from './images/img2.png';
+
 
 function Home() {
     return (
@@ -12,11 +15,11 @@ function Home() {
             </div>
           
             <div className="self-center w-7/12 max-w-2xl row-start-2 ml-10 md:w-11/12 justify-self-center md:row-end-1">
-                {/* <img src="images/img1.png"/> */}
+                <img src={Img1} alt="iamges"/>
             </div>
 
             <div className="self-center w-7/12 max-w-2xl row-start-4 md:w-11/12 justify-self-center md:row-start-2 ">
-                {/* <img src="images/img2.png"/> */}
+                <img src={Img2} alt="secondimage"/>
             </div>
 
             <div className="flex flex-col items-center justify-center row-start-3 m-5 md:items-start md:row-end-2">
