@@ -3,6 +3,8 @@ import { Button } from './Button';
 import {Link } from 'react-router-dom';
 import './Navbar.css';
 
+import {MenuItems}  from './Menulist';
+
 function Navbar() {
   const [click, setClick] = useState(false);
 
@@ -19,16 +21,14 @@ function Navbar() {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
-          <li className='nav-item'>
-            <Link to='/Explore' className='nav-links' onClick={closeMobileMenu}>
-              Explore
-            </Link>
-          </li>
-      
-          <li className='nav-item'>
-            <Link to='/Newnote' className='nav-links' onClick={closeMobileMenu}>New Notes</Link>
-          </li>
-                
+        {/* auto Generated nav items */}
+        {MenuItems.map((item,index)=>{
+        return(
+            <li key={index}  className="nav-item"><Link to={item.url} className='nav-links' onClick={closeMobileMenu}>{item.title}</Link></li>
+             )
+         })}
+        {/* ============================== */}
+        
           <li>
             <Link to='#' className='nav-links-mobile' onClick={closeMobileMenu}> Search</Link>
           </li>

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Footer from './Footer';
 
 function Home() {
     return (
@@ -23,8 +24,9 @@ function Home() {
                 <p className="pt-10 mb-8 text-lg font-medium leading-8 text-gray-600 md:text-2xl"> Prepare the note and pass it to the other people in more efficient manner and let everyone be
                  educated</p>
             </div>
-
             </section>
+            
+            <Footer/>
         </div>
     )
 }

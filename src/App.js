@@ -5,7 +5,7 @@ import './App.css';
 // components
 import Navbar from './components/Navbar/Navbar';
 import Explore from './components/pages/Explore';
-import Home from './components/pages/Home';
+import Home from './components/pages/home/Home';
 import NewNote from './components/pages/NewNote';
 import SignIn from './components/pages/login/SignIn'
 
