@@ -8,6 +8,7 @@ import Explore from './components/pages/explore/Explore';
 import Home from './components/pages/home/Home';
 import SignIn from './components/pages/login/SignIn';
 import Newnote from './components/pages/newnote/Newnote';
+import Empty from './components/pages/404/Empty';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Explore" component={Explore}/>
           <Route path="/Newnote" component={Newnote}/>
           <Route path="/SignIn" component={SignIn}/>
+          <Route path="/Empty" component={Empty}/>
         </Switch>
     </Router>
     
