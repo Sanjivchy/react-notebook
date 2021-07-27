@@ -14,7 +14,7 @@ export function Button() {
           <button className='btn btn__signin'>Sign In</button>
         </Link>
         
-        <Link to='/signin'>  
+        <Link to='/signup'>  
           <button className='btn btn__signup'>Sign Up</button>
         </Link>
     </div> 

@@ -1,41 +1,25 @@
 .navbar {
-  background: white;
-  height: 80px;
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-  font-size: 1.2rem;
+  @apply bg-white h-16 flex justify-between items-center text-xl;
 }
 
 .navbar-logo {
+
   color: #333;
-  justify-self: start;
-  margin-left: 20px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
+  @apply justify-self-start ml-5 cursor-pointer text-3xl ;
+ 
 }
 
 .fa-firstdraft {
-  margin-left: 0.5rem;
-  font-size: 1.6rem;
+  @apply ml-2 text-2xl;
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 10px;
-  list-style: none;
-  text-align: center;
+  @apply grid grid-cols-3 gap-2 text-center justify-center mr-8 ; 
   width: 40vw;
-  justify-content: center;
-  margin-right: 2rem;
 }
 
 .nav-item {
-  display: flex;
-  align-items: center;
-  height: 80px;
+  @apply flex items-center h-20;
 }
 
 .nav-links {
@@ -119,14 +103,14 @@ color:rgba(79,70,229,1);
   .nav-links-mobile {
     display: block;
     text-align: center;
-    padding: 1.5rem;
-    margin: 2rem auto;
+    padding: 0.5rem;
+    margin: 1rem auto;
     border-radius: 4px;
-    width: 80%;
+    width: 40%;
     background: rgba(79,70,229,1);;
     text-decoration: none;
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .nav-links-mobile:hover {
