@@ -13,7 +13,6 @@ function Navbar() {
 
   return (
     <>
-    
     <nav className='navbar'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>LOGO</Link>
         <div className='menu-icon' onClick={handleClick}>
@@ -28,7 +27,6 @@ function Navbar() {
              )
          })}
         {/* ============================== */}
-        
           <li>
             <Link to='#' className='nav-links-mobile' onClick={closeMobileMenu}> Search</Link>
           </li>
@@ -41,7 +39,7 @@ function Navbar() {
           </li>
 
         </ul>
-        <Button />
+        <Button/>
       </nav>
     </>
   )

@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 export function Button() {
   return (
     <div>
-      
         <Link to="#">
          <button className='btn btn__search'>Search</button>
         </Link>

@@ -49,7 +49,7 @@ function Footer() {
                 </div>
             </div>
             <div className="text-center bg-gray-300 h-7">
-                <h3>Terms • Privacy • © 2021 Sanjivchy</h3>
+                <h3>Terms • Privacy • © 2021 Hamro Note</h3>
             </div>
         </footer> 
         </div>

@@ -3,7 +3,6 @@
 }
 
 .navbar-logo {
-
   color: #333;
   @apply justify-self-start ml-5 cursor-pointer text-3xl ;
  
