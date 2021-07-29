@@ -10,13 +10,10 @@ import {Link} from 'react-router-dom'
 function Sidebar() {
     return (
         <div className="Bar"> 
-        <div className="sideline">
-        <img src={Img1} alt="iamges"/>
-          {/* <div className="self-center w-7/12 max-w-2xl row-start-1 ml-4 md:w-8/10 justify-self-center md:row-end-1"> */}
-          </div>
-          <span>asdfghj</span>
-        {/* </div> */}
-                        {/* <div className="sideline"></div>  */}
+        {/* <div className="sideline">
+        {/* <img src={Img1} alt="iamges"/> 
+        </div> */}
+
                         
 <br />
             <ul className="SidebarList">
@@ -30,14 +27,18 @@ function Sidebar() {
                         
                         <div id="icon">  {val.icon} </div>
                         <div id="title"> {val.title} </div>
+
                         
                    
                     </li>
-
+ 
                     );
                 })}
+                
+
+
             </ul>
-            <div className="footer">
+            {/* <div className="footer">
               
                             <Link to="#" className=" h-8 w-8  ml-10 mb-1 text-center  justify-center  ">Help</Link>
                             <Link to="#" className="h-8 w-8  ml-3 mb-1 text-center  justify-center ">Terms</Link>
@@ -45,7 +46,7 @@ function Sidebar() {
                             <Link to="#" className="h-8 w-8  ml-7 mb-1 text-center  justify-center " >@YubarajSigh</Link>
                        
                 
-            </div>
+            </div> */}
            
         </div>
     )

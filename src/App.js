@@ -10,6 +10,8 @@ import Home from './components/pages/home/Home';
 import SignIn from './components/pages/login/SignIn';
 import Newnote from './components/pages/newnote/Newnote';
 import Sidebar from './components/Sidebar/Sidebar';
+import Cards from './components/Cards/Cards';
+
 
 import dashboard from './components/profile/dashboard';
 
@@ -17,7 +19,7 @@ function App() {
   return (
     <Router>
      
-      {/* <Navbar/> */}
+      <Navbar/>
      
         
         <Switch>
@@ -26,6 +28,8 @@ function App() {
           <Route path="/Newnote" component={Newnote}/>
           <Route path="/SignIn" component={SignIn}/>
           <Route path="/dashboard" component={dashboard}/>
+          <Route path="/card" component={Cards}/>
+          
         </Switch>
     </Router>
     
