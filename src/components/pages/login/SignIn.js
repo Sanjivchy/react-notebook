@@ -5,7 +5,7 @@ import {Link }  from 'react-router-dom';
 function SignIn() {
     return (
         <>
-        <div className="card"> 
+        <div className="logincard"> 
             <h2 className="title">log in</h2>
             <p className=" subtitle"> don't have an account?<Link to="/signup" className="ml-2 cursor-pointer text-blue-700"> Sign up</Link></p>
             <div class="social-container">

@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 function Newnote() {
     return (
         <>
-        <nav className="fixed inset-y-0 left-0 bg-white shadow-xl rounded-r-xl p-1 mt-14  w-60">  
+        <nav className="fixed inset-y-0 left-0 bg-gray-100 shadow-xl rounded-r-xl p-1 mt-14 w-60">  
 					<div className="flex h-40 w-full bg-gray-600 ">
 					<div className="bg-gray-500 h-full w-full">
 						photo
@@ -63,7 +63,86 @@ function Newnote() {
 			</nav>
 			<main className="ml-64 contenttt">
 				<div className="bg-white w-full h-full">
-					content
+					<div className="item--cards">
+						<article className="item--card">
+							<h2>QA tester</h2>
+							<div className="card--image bg-red-200 h-32 w-full max-w-full">
+								image
+							</div>
+							<div className="card--title">
+								<h3>title</h3>
+								<p>dasd adsdas dasas dd ddsad as dsad dasdnsad dda asd ajsdnad asdas
+								</p>
+								<div className="flex justify-around">
+									<Link><i class="fas fa-trash-alt"></i></Link>
+									<Link><i class="fas fa-pen-nib"></i></Link>
+									<Link><i class="fas fa-bars"></i></Link>
+								</div>
+							</div>
+						</article>
+						<article className="item--card">
+							<h2>QA tester</h2>
+							{/* <img>image</img> */}
+							<div className="card--title">
+								<h3>title</h3>
+								<p>paragraph</p>
+								<div>
+									<Link><i class="fas fa-trash-alt"></i></Link>
+									<Link><i class="fas fa-pen-nib"></i></Link>
+									<Link><i class="fas fa-bars"></i></Link>
+								</div>
+							</div>
+						</article>
+						
+							<article className="item--card">
+							<h2>QA tester</h2>
+							{/* <img>image</img> */}
+							<div className="card--title">
+								<h3>title</h3>
+								<p>paragraph</p>
+								<div>
+									<Link><i class="fas fa-trash-alt"></i></Link>
+									<Link><i class="fas fa-pen-nib"></i></Link>
+									<Link><i class="fas fa-bars"></i></Link>
+								</div>
+							</div>
+						</article>
+
+						<article className="item--card">
+							<h2>QA tester</h2>
+							<div className="card--image bg-red-200 h-32 w-full max-w-full">
+								image
+							</div>
+							<div className="card--title">
+								<h3>title</h3>
+								<p>dasd adsdas dasas dd ddsad as dsad dasdnsad dda asd ajsdnad asdas
+								</p>
+								<div className="flex justify-around">
+									<Link><i class="fas fa-trash-alt"></i></Link>
+									<Link><i class="fas fa-pen-nib"></i></Link>
+									<Link><i class="fas fa-bars"></i></Link>
+								</div>
+							</div>
+						</article>
+
+						<article className="item--card">
+							<h2>QA tester</h2>
+							<div className="card--image bg-red-200 h-32 w-full max-w-full">
+								image
+							</div>
+							<div className="card--title">
+								<h3>title</h3>
+								<p>dasd adsdas dasas dd ddsad as dsad dasdnsad dda asd ajsdnad asdas
+								</p>
+								<div className="flex justify-around">
+									<Link><i class="fas fa-trash-alt"></i></Link>
+									<Link><i class="fas fa-pen-nib"></i></Link>
+									<Link><i class="fas fa-bars"></i></Link>
+								</div>
+							</div>
+						</article>
+						
+					</div>
 				</div>
 			</main>
         </>
