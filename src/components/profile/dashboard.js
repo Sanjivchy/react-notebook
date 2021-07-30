@@ -11,7 +11,7 @@ function dashboard() {
             
 
          
-           <Cards />
+           {/* <Cards /> */}
            <Container/>
         </div>
     )

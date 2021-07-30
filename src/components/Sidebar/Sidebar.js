@@ -10,9 +10,9 @@ import {Link} from 'react-router-dom'
 function Sidebar() {
     return (
         <div className="Bar"> 
-        {/* <div className="sideline">
-        {/* <img src={Img1} alt="iamges"/> 
-        </div> */}
+        { <div className="sideline">
+         <img src={Img1} alt="iamges"/> 
+        </div> }
 
                         
 <br />
