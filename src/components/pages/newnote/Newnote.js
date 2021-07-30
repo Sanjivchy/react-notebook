@@ -1,7 +1,7 @@
 import React from 'react';
 import './Newnote.css';
 import {Link} from 'react-router-dom';
-
+import Cardlist from './Cards';
 
 function Newnote() {
     return (
@@ -57,91 +57,13 @@ function Newnote() {
 							</span>
 							linkkkk
 						</Link>
-				
 					</div>
 				</div>
 			</nav>
-			<main className="ml-64 contenttt">
+			<main className="ml-64 p-3 contenttt">
 				<div className="bg-white w-full h-full">
 					<div className="item--cards">
-						<article className="item--card">
-							<h2>QA tester</h2>
-							<div className="card--image bg-red-200 h-32 w-full max-w-full">
-								image
-							</div>
-							<div className="card--title">
-								<h3>title</h3>
-								<p>dasd adsdas dasas dd ddsad as dsad dasdnsad dda asd ajsdnad asdas
-								</p>
-								<div className="flex justify-around">
-									<Link><i class="fas fa-trash-alt"></i></Link>
-									<Link><i class="fas fa-pen-nib"></i></Link>
-									<Link><i class="fas fa-bars"></i></Link>
-								</div>
-							</div>
-						</article>
-						<article className="item--card">
-							<h2>QA tester</h2>
-							{/* <img>image</img> */}
-							<div className="card--title">
-								<h3>title</h3>
-								<p>paragraph</p>
-								<div>
-									<Link><i class="fas fa-trash-alt"></i></Link>
-									<Link><i class="fas fa-pen-nib"></i></Link>
-									<Link><i class="fas fa-bars"></i></Link>
-								</div>
-							</div>
-						</article>
-						
-							<article className="item--card">
-							<h2>QA tester</h2>
-							{/* <img>image</img> */}
-							<div className="card--title">
-								<h3>title</h3>
-								<p>paragraph</p>
-								<div>
-									<Link><i class="fas fa-trash-alt"></i></Link>
-									<Link><i class="fas fa-pen-nib"></i></Link>
-									<Link><i class="fas fa-bars"></i></Link>
-								</div>
-							</div>
-						</article>
-
-						<article className="item--card">
-							<h2>QA tester</h2>
-							<div className="card--image bg-red-200 h-32 w-full max-w-full">
-								image
-							</div>
-							<div className="card--title">
-								<h3>title</h3>
-								<p>dasd adsdas dasas dd ddsad as dsad dasdnsad dda asd ajsdnad asdas
-								</p>
-								<div className="flex justify-around">
-									<Link><i class="fas fa-trash-alt"></i></Link>
-									<Link><i class="fas fa-pen-nib"></i></Link>
-									<Link><i class="fas fa-bars"></i></Link>
-								</div>
-							</div>
-						</article>
-
-						<article className="item--card">
-							<h2>QA tester</h2>
-							<div className="card--image bg-red-200 h-32 w-full max-w-full">
-								image
-							</div>
-							<div className="card--title">
-								<h3>title</h3>
-								<p>dasd adsdas dasas dd ddsad as dsad dasdnsad dda asd ajsdnad asdas
-								</p>
-								<div className="flex justify-around">
-									<Link><i class="fas fa-trash-alt"></i></Link>
-									<Link><i class="fas fa-pen-nib"></i></Link>
-									<Link><i class="fas fa-bars"></i></Link>
-								</div>
-							</div>
-						</article>
-						
+						<Cardlist/>
 					</div>
 				</div>
 			</main>
