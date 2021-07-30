@@ -1,5 +1,7 @@
 import Cards from '../Cards/Cards';
 import Sidebar from '../Sidebar/Sidebar';
+import Container from '../Container/Container';
+
 
 
 function dashboard() {
@@ -10,6 +12,7 @@ function dashboard() {
 
          
            <Cards />
+           <Container/>
         </div>
     )
 }

@@ -5,15 +5,15 @@ import './Cards.css'
 function Cards() {
     return (
         <div className="body">
-            <div className="container mx-auto "> 
+            {/* <div className="container  ">  */}
 {
-                <div className="flex justify-start space-x-6 ml-60 sm:ml-60 lg:ml-60 ">
-                 <Link to='#' className="w-24 flex justify-center " style={{color:"white", backgroundColor:"purple", borderRadius:'30px'}} > Notes</Link>         
-                 <Link to='/' className="w-24 flex justify-center" style={{color:"white", backgroundColor:"purple", borderRadius:'30px'}}  > Resources</Link>
+                <div className="flex justify-start  ml-61 sm:ml-60 lg:ml-60 ">
+                 <Link to='#' className="  rounded-l-lg py-2 w-24 flex justify-center bg-gray-400 hover:bg-gray-700 "  > Notes</Link>         
+                 <Link to='/' className=" mr-8 rounded-l-lg  py-2 w-24 flex justify-center bg-gray-400 hover:bg-gray-700"   > Resources</Link>
                 </div>
           }
              
-            </div>
+            {/* </div> */}
             
         </div>
     )
